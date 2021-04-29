@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mama_sepeti/anasayfa.dart';
 import 'package:mama_sepeti/giris_ekrani.dart';
 
 void main() {
@@ -13,9 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Mama Sepeti',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.grey,
       ),
-      home: girisEkrani(),
+      home: Anasayfa(),
     );
   }
 }

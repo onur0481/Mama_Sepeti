@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class girisEkrani extends StatelessWidget {
+class GirisEkrani extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SafeArea(
