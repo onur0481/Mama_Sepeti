@@ -30,7 +30,6 @@ class _AnasayfaState extends State<Anasayfa> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView(
-        physics: NeverScrollableScrollPhysics(),
         onPageChanged: (acilanSayfaNo) {
           setState(() {
             _aktifNo = acilanSayfaNo;
